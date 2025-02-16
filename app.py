@@ -16,6 +16,13 @@
 # ]
 # ///
 
+
+# docker build -t manish7011/tds_project_1:latest .
+
+# running the docker image :docker run -p 8000:8000 manish7011/tds_project_1:latest
+
+
+# uv run evaluate.py --email=22f3000749@ds.study.iitm.ac.in --log-level=INFO
 from fastapi import FastAPI, HTTPException, Query
 from fastapi.responses import PlainTextResponse, JSONResponse
 from fastapi.middleware.cors import CORSMiddleware

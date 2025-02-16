@@ -16,6 +16,10 @@ ENV PATH="/root/.local/bin:$PATH"
 # Set up the application directory
 WORKDIR /app
 
+COPY tasksA.py /app/
+
+COPY tasksB.py /app/
+
 # Copy application files
 COPY app.py /app
 
